@@ -22,6 +22,11 @@ packages:
   gitUrl: https://github.webmethods.io/kvv
   gitUsername: kvv
   gitBranch: main
+- name: PackX
+  gitServerName: SIQAPsurGit
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: prabhakarsag
+  gitBranch: main
 services:
 - serviceName: project.siqa_stage2410.integrations:SIQAAdapterFlow
   packages:
