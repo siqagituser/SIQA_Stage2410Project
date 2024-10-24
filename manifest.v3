@@ -10,17 +10,18 @@
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="SIQA_OriginTest_OnPremAssets">1.0</value>
     <value name="TPP_services_in_FCS">1.0</value>
+    <value name="PackageA">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">32</value>
+  <value name="build">33</value>
   <null name="description"/>
   <value name="created_date">24-10-2024 10:30:30 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-10-24T11:18:01.344148662Z</value>
+  <value name="lastUpdated">2024-10-24T11:18:24.472878225Z</value>
   <value name="wmProjectId">fl6991c07461514b59ad8690</value>
   <value name="creator">siqa admin</value>
 </Values>
