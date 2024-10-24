@@ -23,7 +23,7 @@ packages:
   gitUsername: siqagituser
   gitBranch: Test
 services:
-- serviceName: project.siqa_stage2410.integrations:tppfs
+- serviceName: project.siqa_stage2410.integrations:SIQAAdapterFlow
   packages:
   - name: SIQA_Stage2410Project
     version: "1.0"
@@ -31,14 +31,14 @@ services:
     version: "1.0"
   - name: SIQA_OriginTest_OnPremAssets
     version: "1.0"
-- serviceName: services:add3Ints
+- serviceName: project.siqa_stage2410.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:testJDBC
   packages:
+  - name: SIQA_Stage2410Project
+    version: "1.0"
   - name: TPP_services_in_FCS
     version: "1.0"
-- serviceName: pub.math:addInts
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2015
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
 configurationVariables:
   ? artConnection.SIQA_Stage2410Project.project.siqa_stage2410.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.heartBeatInterval
   : "0"
