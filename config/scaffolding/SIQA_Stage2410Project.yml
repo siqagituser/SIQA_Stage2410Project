@@ -22,11 +22,6 @@ packages:
   gitUrl: https://github.webmethods.io/kvv
   gitUsername: kvv
   gitBranch: main
-- name: PackageA
-  gitServerName: SIQAPsurGit
-  gitUrl: https://github.com/prabhakarsag
-  gitUsername: prabhakarsag
-  gitBranch: main
 - name: PackageB
   gitServerName: SIQAPsurGit
   gitUrl: https://github.com/prabhakarsag
